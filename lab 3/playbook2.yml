@@ -1,8 +1,1 @@
----
-- name: install kubectl, Docker and Jenkins
-  hosts: node
-  become: yes
-  roles:
-    - docker
-    - kubectl
-    - jenkins
+
